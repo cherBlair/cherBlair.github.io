@@ -33,6 +33,7 @@ http://www.tipue.com/search
 
 
 /* search box */
+/* 검색창 스타일 수정 */
 
 
 #tipue_search_input
@@ -41,7 +42,7 @@ http://www.tipue.com/search
      max-width: 170px;
      max-height: 20px;
 	padding: 15px;
-	border: 2px solid #11005c;
+	border: 2px solid rgba(27, 42, 80, 0.33);
 	border-radius: 0;
 	-moz-appearance: none;
 	-webkit-appearance: none;
