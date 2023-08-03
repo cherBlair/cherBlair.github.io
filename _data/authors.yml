@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              HANA KIM
+  name:              Blair
   email:             cher.blair.h@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    반갑습니다. 풀스택 개발자를 꿈꾸는 AI 대학원생입니다.
+    a curious developer
 
     Please check my [CV](/assets/CV.pdf)
 

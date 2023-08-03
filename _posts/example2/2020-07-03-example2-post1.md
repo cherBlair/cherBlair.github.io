@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example2-post1
+title: test22
 image: 
   path: /assets/img/blog/example1/cheetah.jpg
 description: >

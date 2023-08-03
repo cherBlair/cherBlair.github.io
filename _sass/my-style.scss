@@ -33,3 +33,19 @@
 .nav-btn-bar {
   height: 3rem;
 }
+
+// profile avatar image
+.content .avatar {
+  float: right !important;    // 왼쪽으로 보낼지 오른쪽으로 보낼지
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  width:140px !important; 	// 이미지 크기 
+  height:140px !important;
+}
+.author-body-description {
+  margin-left: 20px !important;  // 소개글 위치 정하기 200px
+  margin-top: 20px !important;      // 20px
+}
