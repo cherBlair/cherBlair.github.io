@@ -294,6 +294,9 @@ _   underscore
 
 > 🔍 **결과**
 
+![그림1](/assets/img/etc/markdownshow.jpg)
+![그림2](/assets/img/etc/markdownshow.jpg){: width="400" height="400"}
+
 
 
 
@@ -312,6 +315,8 @@ _   underscore
 ~~~
 
 > 🔍 **결과**
+줄 바꿈시 사용 <br>
+줄 바꿈시 사용
 
 
 
