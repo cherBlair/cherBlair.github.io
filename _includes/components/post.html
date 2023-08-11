@@ -46,10 +46,10 @@
       {% assign alt = '' %}
     {% endif %}{% endunless %}
     <!-- 게시물 생성시 hits 생성 -->    
-    <div style="text-align:right; text-align: center">
+    <!-- <div style="text-align:right; text-align: center">
       <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https: //' | remove_first: 'http://' }}{{ page.url }}" target="_blank">
           <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%23043343&title_bg=%23555555&icon=googlefit.svg&icon_color=%23EFD1D1&title=hits&edge_flat=false" /> </a>
-    </div>
+    </div> -->
 
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
    
