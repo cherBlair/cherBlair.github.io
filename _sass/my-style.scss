@@ -101,3 +101,55 @@
     padding-bottom : 2px;
   }
 }
+
+
+// 이전 글, 다음 글 이동 버튼
+.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-control > div {
+  max-width: 50%;
+}.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-control > div {
+  max-width: 50%;
+}
+
+.button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:16px;
+  border:3px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 100px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  --accent-color: rgb(222, 244, 248);
+  --accent-color-faded: #ffffff;
+  // --accent-color-darkened: blue;
+}
+
+.button:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+}
+
+.button:active {
+  position:relative;
+  top:1px;
+}
