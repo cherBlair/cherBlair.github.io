@@ -186,3 +186,8 @@
 .submenu.menu-wrapper.hide{
   display: none;
 }
+
+// 조회수 뒤쪽 링크 박스 없애기
+a.external::after, a::after {
+  display: none !important;
+}
