@@ -191,3 +191,84 @@
 a.external::after, a::after {
   display: none !important;
 }
+
+
+// time-line 목차 리스트
+.list-lead{
+  margin-bottom: 0 !important;
+}
+.list-lead::after {
+  content:"" !important;
+  display:block !important;
+  position: relative !important;
+  border-radius: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+  top: -21px !important;
+  left: 62px !important;
+  // border: 3px solid;
+
+  background-color: lightgrey !important;
+  z-index: 1 !important;
+}
+.list-post li {
+  line-height: 3rem !important;
+}
+.list-post > ul > li:first-child::before, .list-post > ul > li::after{
+  content: "" !important;
+  width: 4px !important;
+  left: 66px !important;
+  display: inline-block !important;
+  float: left !important;
+  position: relative !important;
+  background-color: lightgrey !important;
+}
+.list-post > ul > li > div{
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.list-post > ul > li > div > a{
+  margin-left: 1.5rem !important;
+  position: relative !important;
+}
+.list-post > ul > li > div > a::before{
+  content: "" !important;
+  display: inline-block !important;
+  position: relative !important;
+  border-radius: 50% !important;
+  width: 8px !important;
+  height: 8px !important;
+  float: left !important;
+  top: 1.35rem !important;
+  left: 60px !important;
+  box-shadow: 0 0 5px 0 grey !important;
+  background-color: white !important;
+  z-index: 1 !important; 
+
+  transition: all 0.5s !important;
+}
+.list-post > ul > li > div > a:hover::before{
+  background-color: lightgrey !important;
+  margin-right: 0.3rem !important;
+  box-shadow: 0 0 2px 0 grey !important;
+}
+.list-post > ul > li:first-child::before{
+  height: 3.0rem !important;
+  top: -1.5rem !important;
+}
+.list-post > ul > li:not(:last-child)::after{
+  height: 3.3rem !important;
+  top: -1.3rem !important;
+}
+.list-post ul:not(:last-child)>li:last-child::after{
+  height: 5.2rem !important;
+  top: -1.3rem !important;
+}
+
+.list-post .related-posts>li+li{
+  margin-top: 0 !important;
+}
+.list-post li.h6{
+  margin-top: 0 !important;
+}
