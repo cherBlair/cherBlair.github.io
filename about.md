@@ -13,7 +13,7 @@ hide_description: true
 # About
 <!--author-->
 ***
-<center>
+<!-- <center>
 <span style="font-size:170%;font-weight:bold"> 김현우
 </span>
 </center>
@@ -54,4 +54,4 @@ Visual Object Tracking Using Plenoptic Image Sequences, Hansung Univ – ETRI[ht
 ---
 -Language : Python, C/C++
 -FrameWork: Pytorch, Tensorflow(Keras)
--Certification : CCNA, Internet of Things Knowledge Certification
+-Certification : CCNA, Internet of Things Knowledge Certification -->
