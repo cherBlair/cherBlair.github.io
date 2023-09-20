@@ -20,15 +20,15 @@ baseurl:               ''
 lang:                  ko_KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Blair's Portfolio :D
+title: B's log                 #Blair's Portfolio
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  지속적으로 발전하는 호기심 많은 개발자
+# description:           >
+#   #지속적으로 발전하는 호기심 많은 개발자
 
 # A shorter description for the sidebar.
-tagline:           the footsteps of a curious developer    
+tagline:          #the footsteps of a curious developer    
 
 # A list of keywords for your blog
 keywords:              [JAVA, JPA, javascript, jquery, tomcat, git, mariaDB, gitblog]
@@ -52,17 +52,17 @@ menu:
     url:               /about/
   - title:             Posts
     url:               /posts/
-  - title:             Example1
-    url:               /example1/
-  - title:             Example2
-    url:               /example2/
-  - title:            Subcat
-    url:              /subcat/
-    submenu:
-      - title:        Test1
-        url:          /test1/
-      - title:        Test2
-        url:          /test2/
+  # - title:             Example1
+  #   url:               /example1/
+  # - title:             Example2
+  #   url:               /example2/
+  # - title:            Subcat
+  #   url:              /subcat/
+  #   submenu:
+  #     - title:        Test1
+  #       url:          /test1/
+  #     - title:        Test2
+  #       url:          /test2/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -89,7 +89,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # 로컬에서 실행할때 아래 코드 주석을 풀어주세요!
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # GitHub Pages에서 실행할때는 아래 코드 주석을 풀어주세요!
 remote_theme: hydecorp/hydejack@v9.1.5
 
